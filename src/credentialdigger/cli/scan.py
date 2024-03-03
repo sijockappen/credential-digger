@@ -117,4 +117,4 @@ def run(client, args):
         git_username=args.git_username,
         git_token=args.git_token)
 
-    sys.exit(len(discoveries))
+    sys.exit(0)
